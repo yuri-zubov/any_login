@@ -14,8 +14,7 @@ Gem::Specification.new do |s|
   s.description = "Simply add this gem to your application and make your life easier with switching users."
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
+  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "README.rdoc"]
 
   s.required_ruby_version = '>= 3.0'
 

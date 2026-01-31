@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 gem "rails", "~> 8.0.2"
 gem "sqlite3", ">= 2.6.0"
+gem "minitest", "~> 5.27"
 
 group :development, :test do
   gem "capybara"
